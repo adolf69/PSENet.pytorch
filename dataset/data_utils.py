@@ -41,7 +41,7 @@ def check_and_validate_polys(polys, xxx_todo_changeme):
 
 def generate_rbox(im_size, text_polys, text_tags, training_mask, i, n, m):
     """
-    生成mask图，白色部分是文本，黑色是北京
+    生成mask图，白色部分是文本，黑色是背景
     :param im_size: 图像的h,w
     :param text_polys: 框的坐标
     :param text_tags: 标注文本框是否参与训练
